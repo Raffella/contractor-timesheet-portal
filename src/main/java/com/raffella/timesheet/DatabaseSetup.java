@@ -34,6 +34,7 @@ public class DatabaseSetup implements CommandLineRunner {
             applyMigration(connection, "V001.sql");
             applyMigration(connection, "V002.sql");
             applyMigration(connection, "V003.sql");
+            applyMigration(connection, "V004.sql");
         }
     }
 
